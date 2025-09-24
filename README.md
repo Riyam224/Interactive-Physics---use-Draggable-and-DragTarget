@@ -5,10 +5,10 @@ An interactive **Flutter app** that demonstrates **drag-and-drop mechanics, anim
 
 This project is designed as a **playground** for experimenting with:
 
-- 🎱 Draggable & DragTarget widgets
-- 🎨 AnimatedContainer for smooth transitions
-- 🌀 TweenAnimationBuilder for bounce/scale effects
-- 💡 Clean, beginner-friendly Flutter state management
+- 🎱 Draggable & DragTarget widgets  
+- 🎨 AnimatedContainer for smooth transitions  
+- 🌀 TweenAnimationBuilder for bounce/scale effects  
+- 💡 Clean, beginner-friendly Flutter state management  
 
 ---
 
@@ -39,7 +39,7 @@ This project is designed as a **playground** for experimenting with:
 
 ## 🏗️ Project Structure
 
-physics_playground/
+Interactive-Physics—use-Draggable-and-DragTarget/
 ├── lib/
 │   ├── main.dart        # App entry point
 │   └── home_view.dart   # Main UI and logic (draggable balls + targets)
@@ -72,10 +72,10 @@ void main() {
 home_view.dart
 
 Implements the playground:
- • _buildDraggableBall() → Creates draggable balls with bounce effect.
- • _buildTarget() → Creates targets that accept only the correct color ball.
- • _buildBall() → Animates ball scaling when being dragged.
- • _ballShape() → Defines the circular design with shadows.
+	•	_buildDraggableBall() → Creates draggable balls with bounce effect
+	•	_buildTarget() → Creates targets that accept only the correct color ball
+	•	_buildBall() → Animates ball scaling when being dragged
+	•	_ballShape() → Defines the circular design with shadows
 
 ⸻
 
@@ -90,7 +90,7 @@ This project uses only Flutter core libraries (no external dependencies).
 1️⃣ Clone the repository
 
 git clone https://github.com/Riyam224/Interactive-Physics---use-Draggable-and-DragTarget.git
-cd physics_playground
+cd Interactive-Physics---use-Draggable-and-DragTarget
 
 2️⃣ Install dependencies
 
@@ -106,10 +106,10 @@ flutter run
 🎯 Learning Outcomes
 
 By exploring this project, you’ll learn:
- • How to use Draggable & DragTarget
- • How to animate with TweenAnimationBuilder
- • How to build interactive UIs with stateful logic
- • How to combine gesture + animation + UI effects
+	•	How to use Draggable & DragTarget
+	•	How to animate with TweenAnimationBuilder
+	•	How to build interactive UIs with stateful logic
+	•	How to combine gesture + animation + UI effects
 
 ⸻
 
@@ -118,4 +118,6 @@ By exploring this project, you’ll learn:
 Feel free to fork this repo, experiment with new physics, and submit pull requests! 🚀
 
 ⸻
+
+
 
